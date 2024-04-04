@@ -14,7 +14,7 @@ import Clutch from "../../public/assets/Clutch.svg";
 export function Hero(){
 
     return(
-        <div className = "pt-4 lg:pt-10 py-4">
+        <div className = "pt-7 lg:pt-7">
             <div className = "px-[20px] lg:px-[280px]">
                 <h1 className = 'text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px] '>
                     Best in Class Technology
@@ -39,19 +39,7 @@ export function Hero(){
             <div className="relative flex h-full w-full justify-center">
                 <Image src={Gradient} alt="Gradient" className="min-h-[500px] w-full object-cove lg:h-auto" />
                 <div className ="absolute bottom-5 flex w-full flex-col items-center">
-                    <Image src={HeroImage} alt="hero image" className="-ml-3 h-[310px] sm:-mb-20 sn:h-[400px] lg:-mb-32 lg:h-[800px] xl:w-[65]" />
-                    <div className= "flex w-full flex-col items-center">
-                        <p className = "text-[#36485C] text-center">
-                            Trusted by these companies
-                        </p>
-                        <div className = "grid grid-cols-3 items-center justify-center justify-items-center px-[20px] align-middle">
-                            <Image src={Google} alt="" />
-                            <Image src={Clutch} alt="" />
-                            <Image src={Cnn} alt="" />
-                            <Image src={Slack} alt="" />
-                            <Image src={Trustpilot} alt="" />
-                        </div>
-                    </div>
+                    <Image src={HeroImage} alt="hero image" className="-ml-3 h-[310px] sm:-mb-0 sn:h-[400px] lg:-mb-0 lg:h-[800px] xl:w-[65]" />
                 </div>
                 
             </div>
