@@ -13,7 +13,7 @@ const navLinks = [
 
 export function Navbar(){
     return(
-        <nav className= "flex w-full items-center justify-between px-[20px] py-[16px] lg:container lg:mx-auto lg:px-20" >
+        <nav className= "flex w-full items-center justify-between py-[16px] px-[20px]  bg-sky-500" >
             <div className='flex items-center'>
                 <button className="focus:outline-none" onClick={() => window.location.href = "../"} >
                     <Image src={Logo} style = {{height: 53, width:53, borderRadius: '50%'}}alt = 'Logo'/>

@@ -8,7 +8,7 @@ export default function Chat() {
     const { messages, input, handleInputChange, handleSubmit } = useChat();
 
     return (
-      <div className="flex flex-col w-full max-w-xs sm:max-w-l lg:max-w-2xl py-15 mx-auto stretch justify-center pb-20">
+      <div className="flex flex-col w-full max-w-xs sm:max-w-l lg:max-w-2xl py-10 mx-auto stretch justify-center pb-20">
         <h4 className="text-lg font-bold md:text-xl lg:text-4xl pb-4 text-white'">
           Recipes Here
         </h4>
